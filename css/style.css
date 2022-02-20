@@ -1,0 +1,298 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap");
+@font-face {
+	font-family: 'ArnoPro';
+	src: url('../fonts/ArnoPro-LightDisplay.woff2') format('woff2'),url('../fonts/ArnoPro-LightDisplay.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+.wraper {
+	overflow: hidden;
+	min-height: 100%;
+}
+.header {
+	font-size: 30px;
+	color: red;
+	margin-bottom: 100px;
+}
+.container {
+	max-width: 1920px;
+}
+.my-button {
+	display: inline-block;
+	border-radius: 20px 20px 20px 20px;
+	background-color: rgb(231, 28, 140);
+	color: aliceblue;
+	font-weight: 700;
+	font-size: 24px;
+	box-shadow: 2px 5px 0px 0px rgb(61, 4, 32);
+	margin: 0px 0px 140px 100px;
+	line-height: 60px;
+	width: 300px;
+	text-align: center;
+}
+.my-button:active{
+	box-shadow: inset 0px -5px 0px 0px rgb(61, 4, 32);
+	margin-top: 2px;
+
+}
+.block {
+	max-width: 1594px;
+	margin: 0px 0px 700px 100px;
+	font-family: "Lato", sans-serif;
+	font-size: 16px;
+	line-height: 160%;
+}
+.title {
+	margin-bottom: 40px;
+}
+.main-title {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	margin: 0px 0px 25px 0px;
+	max-width: 810px;
+}
+.date-title{
+	margin: 0px 25px 0px 0px ;
+}
+.date-title, .time-title {
+	font-size: 16px;
+	color: #787A80;
+	padding: 0px 0px 0px 24px;
+	margin-bottom: 20px;
+}
+.conect h5.date-title::before{
+	content: "";
+	width: 16px ;
+	height: 26px;
+	display: inline-block;
+	margin: 0px 8px 0px -24px;
+	background: url("../img/period.svg") 0px 0px / 16px no-repeat;
+	opacity: 0.33;
+	vertical-align: text-top;
+}
+.conect h5.time-title::before{
+	content: "";
+	width: 16px ;
+	height: 26px;
+	display: inline-block;
+	margin: 0px 8px 0px -24px;
+	background: url("../img/time.svg") 0px 0px / 16px no-repeat;
+	vertical-align: text-top;
+}
+.conect-title {
+	font-size: 16px;
+	font-weight: bold;
+}
+.conect h5.conect-title::after{
+	content: "";
+	width: 84px ;
+	height: 20px;
+	display: inline-block;
+	background: url("../img/socials.svg") 0px 0px no-repeat;
+	margin: 0px 0px 0px 12px ;
+}
+
+.image-one {
+	margin: 0px 0px 60px 0px;
+}
+
+div.text {
+	max-width: 810px;
+}
+.bold-text__first {
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 150%;
+	margin: 0px 0px 24px 0px;
+}
+.regular-text__old-age {
+	margin: 0px 0px 24px 0px;
+
+}
+.regular-text__love {
+	margin: 0px 0px 48px 0px;
+}
+.bold-text__quote {
+	background: url('../img/braces.svg') 0 0 no-repeat;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 150%;
+	margin: 0px 0px 48px 0px;
+	padding-left: 58px;
+}
+
+.regular-text__list-title {
+	margin-bottom: 24px;
+}
+.regular-text__list {
+	margin-bottom: 24px;
+	padding-left: 32px;
+}
+
+.regular-text__list li::before{
+	content: "";
+	width: 16px ;
+	height: 16px;
+	display: inline-block;
+	margin: 0px 16px 0px -32px;
+	background: url("../img/check.svg") 0px 0px / 16px no-repeat;
+	vertical-align: text-top;
+}
+.regular-text__conclusion {
+	margin: 0 0 63px 0;
+}
+
+
+.footer{
+	font-size: 30px;
+	color: red;
+}
+
+/* ===============================part 2===================================== */
+.main {
+	max-width: 1900px;
+	background: rgb(139, 190, 146);
+	
+}
+.go {
+	font-size: 80px;
+	font-weight: 900;
+	color: rgb(37, 53, 9);
+	text-shadow: 10px 10px 10px rgb(41, 83, 43);
+	text-align: center;
+	padding-top: 30px;
+	margin-bottom: 50px;
+}
+.game-block {
+	margin: 0px 0px 0px 50px;
+}
+.start {
+	width: 200px;
+   height: 200px;
+	background: url("../img/stones.png") left /400px no-repeat;
+	border: 5px solid gainsboro;
+}
+.zero { 
+	background: url("../img/stones.png") 0 0 /200px repeat;
+	width: 800px;
+   height: 80px;
+	visibility: hidden;
+}
+.one {
+	background: url("../img/stones.png") 0 0 /130px repeat;
+	width: 130px;
+   height: 260px;
+	margin: 0px 0px 0px 650px;
+	visibility: hidden;
+}
+.two {
+	background: url("../img/stones.png") 0 0 /170px repeat;
+	width: 345px;
+   height: 70px;
+	margin: 0px 0px 0px 650px;
+	visibility: hidden;
+}
+.three {
+	background: url("../img/stones.png") 0 0 /100px repeat;
+	width: 70px;
+   height: 240px;
+	margin: 0px 0px 0px 950px;
+	visibility: hidden;
+}
+.four {
+	background: url("../img/stones.png") 0 0 /100px repeat;
+	width: 600px;
+   height: 40px;
+	margin: 0px 0px 0px 400px;
+	visibility: hidden;
+}
+.five {
+	background: url("../img/stones.png") 0 0 /100px repeat;
+	width: 90px;
+   height: 200px;
+	margin: -200px 0px 0px 320px;
+	visibility: hidden;
+}
+.six {
+	background: url("../img/stones.png") 0 0 /100px repeat;
+	width: 200px;
+   height: 40px;
+	margin: -200px 0px 0px 120px;
+	visibility: hidden;
+}
+.seven {
+	background: url("../img/stones.png") 0 0 /130px repeat;
+	width: 130px;
+   height: 360px;
+	margin: 0px 0px 0px 70px;
+	visibility: hidden;
+}
+.eight {
+	background: url("../img/stones.png") 0 0 /200px repeat;
+	width: 800px;
+   height: 80px;
+	margin: 0px 0px 0px 50px;
+	visibility: hidden;
+}
+.finish {
+	width: 200px;
+   height: 200px;
+	background: url("../img/stones.png") left /400px no-repeat;
+	margin: -20px 0px 0px 650px;
+	border: 5px solid gainsboro;
+	visibility: hidden;
+}
+.image{
+	width: 1000px;
+   height: 1000px;
+	background: url("../img/cow.png") left /1000px no-repeat;
+	margin: -500px 0px 0px auto;
+	visibility: hidden;
+}
+.start:hover + .zero,
+.zero:hover{
+	visibility: visible;
+}
+.zero:hover + .one,
+.one:hover{
+   visibility: visible;
+}
+.one:hover + .two,
+.two:hover{
+   visibility: visible;
+}
+.two:hover + .three,
+.three:hover{
+   visibility: visible;
+}
+.three:hover + .four,
+.four:hover{
+   visibility: visible;
+}
+.four:hover + .five,
+.five:hover{
+   visibility: visible;
+}
+.five:hover + .six,
+.six:hover{
+   visibility: visible;
+}
+.six:hover + .seven,
+.seven:hover{
+   visibility: visible;
+}
+.seven:hover + .eight,
+.eight:hover{
+   visibility: visible;
+}
+.eight:hover + .finish,
+.finish:hover{
+   visibility: visible;
+}
+.finish:hover + .image,
+.image:hover{
+   visibility: visible;
+}
